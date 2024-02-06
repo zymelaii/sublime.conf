@@ -1,0 +1,36 @@
+[
+	{
+		"keys": ["tab"], "command": "auto_complete", "args": {"mini": true, "default": "\t",  "commit_single": true},
+		"context": [
+			{ "key": "auto_complete_visible", "operand": false },
+			{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+			{ "key": "setting.tab_completion", "operator": "equal", "operand": true },
+			{ "key": "preceding_text", "operator": "regex_match", "operand": ".*\\w", "match_all": true },
+			{ "key": "panel_has_focus", "operand": false },
+		]
+	},
+	{
+		"keys": ["tab"], "command": "auto_complete", "args": {"snippets_only": true, "default": "\t"},
+		"context": [
+			{ "key": "auto_complete_visible", "operand": false },
+			{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+			{ "key": "setting.tab_completion", "operator": "equal", "operand": false },
+			{ "key": "preceding_text", "operator": "regex_match", "operand": ".*\\w", "match_all": true },
+			{ "key": "panel_has_focus", "operand": false },
+		]
+	},
+	{
+		"keys": ["tab"], "command": "expand_snippet",
+		"context": [
+			{ "key": "has_snippet" },
+			{ "key": "panel_has_focus", "operand": false },
+		]
+	},
+	{
+		"keys": ["tab"], "command": "commit_completion",
+		"context": [
+			{ "key": "auto_complete_visible" },
+			{ "key": "panel_has_focus", "operand": false },
+		]
+	},
+]

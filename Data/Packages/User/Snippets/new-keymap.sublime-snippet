@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+{ "keys": ["${1}"], "command": "${2:}" },
+]]></content>
+	<tabTrigger>new-keymap</tabTrigger>
+	<scope>source.json.sublime</scope>
+</snippet>

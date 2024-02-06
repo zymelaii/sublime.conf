@@ -1,0 +1,31 @@
+{
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Monokai.sublime-color-scheme",
+
+	"highlight_line": true,
+	"tree_animation_enabled": false,
+	"animation_enabled": false,
+
+	"caret_style": "blink",
+	"caret_extra_top": 0,
+	"caret_extra_bottom": 0,
+	"caret_extra_width": 0,
+
+	"trim_trailing_white_space_on_save": "all",
+	"ensure_newline_at_eof_on_save": true,
+
+	"show_rel_path": true,
+	"show_line_endings": true,
+	"show_git_status_in_status_bar": false,
+	"show_encoding": true,
+	"show_spelling_errors": false,
+
+	"hardware_acceleration": "opengl",
+
+	"ignored_packages": [
+		"Vintage",
+	],
+	"index_files": true,
+	"font_size": 11,
+	"update_check": false,
+}

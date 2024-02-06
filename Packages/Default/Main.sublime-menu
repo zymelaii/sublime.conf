@@ -969,11 +969,6 @@
 			{ "caption": "-" },
 			{ "command": "show_progress_window", "caption": "Indexing Status…" },
 			{ "caption": "-" },
-			{ "command": "purchase_license"},
-			{ "command": "upgrade_license"},
-			{ "command": "show_license_window", "caption": "Enter License" },
-			{ "command": "remove_license"},
-			{ "caption": "-" },
 			{ "command": "update_check", "caption": "Check for Updates…" },
 			{ "command": "show_changelog", "caption": "Changelog…" },
 			{ "command": "show_about_window", "caption": "About Sublime Text", "mnemonic": "A" }

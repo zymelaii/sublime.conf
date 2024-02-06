@@ -1,0 +1,32 @@
+[
+	{ "keys": ["shift+alt+d"], "command": "quick_select" },
+
+	{ "keys": ["ctrl+j"], "command": "toggle_panel" },
+
+	{ "keys": ["ctrl+k", "ctrl+m"], "command": "prompt_reset_syntax" },
+
+	{ "keys": ["ctrl+k", "ctrl+o"], "command": "project_open_folder" },
+	{ "keys": ["alt+shift+p"], "command": "project_quick_switch" },
+	{ "keys": ["ctrl+k", "f"], "command": "close_workspace" },
+	{ "keys": ["ctrl+k", "F"], "command": "close_workspace" },
+
+	{ "keys": ["ctrl+k", "ctrl+r"], "command": "project_remove_folder" },
+
+	{ "keys": ["ctrl+k", "r"], "command": "intelli_move" },
+	{ "keys": ["ctrl+k", "R"], "command": "intelli_move" },
+
+	{
+		"keys": ["ctrl+l"], "command": "clear_console",
+		"context": [
+			{ "key": "panel", "operand": "console" },
+			{ "key": "panel_has_focus" },
+		],
+	},
+
+	{
+		"keys": ["shift+enter"], "command": "py_eval",
+		"context": [
+			{ "key": "selector", "operator": "equal", "operand": "source.python" },
+		],
+	},
+]

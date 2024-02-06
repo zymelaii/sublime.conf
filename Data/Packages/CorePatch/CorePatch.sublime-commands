@@ -1,0 +1,12 @@
+[
+	{ "caption": "FileUtils: Move", "command": "intelli_move" },
+	{ "caption": "FileUtils: Rename", "command": "intelli_move" },
+
+	{ "caption": "Project: Config",  "command": "open_file", "args": {"file": "${project}"} },
+	{ "caption": "Project: Add Folder", "command": "prompt_add_folder" },
+	{ "caption": "Project: Remove Folder", "command": "project_remove_folder" },
+	{ "caption": "Project: Open Folder in New Window", "command": "prompt_open_folder" },
+	{ "caption": "Project: Close", "command": "close_workspace" },
+	{ "caption": "Project: Save As", "command": "save_project_and_workspace_as" },
+	{ "caption": "Project: Refresh", "command": "refresh_folder_list" },
+]
